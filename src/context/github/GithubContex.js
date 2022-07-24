@@ -33,6 +33,7 @@ export const GithubProvider = ({ children }) => {
 
   const searchUsers = async (text) => {
     setLoading()
+
     const params = new URLSearchParams({
       q: text,
     })
